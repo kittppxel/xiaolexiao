@@ -1,0 +1,15 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* 标尺适配，知道vw和vh是多少px */
+#size{
+    position: absolute;
+    left: -1vw;
+    width: 1vw;
+    height: 1vh;
+}

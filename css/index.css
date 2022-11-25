@@ -1,0 +1,122 @@
+
+/* 开始游戏 */
+#gameStartButton{
+    position: absolute;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10vw;
+    background-color: #ccc;
+    bottom: 25vh;
+    left: 20vw;
+    width: 60vw;
+    font-size: 5vw;
+    transition: 0.3s;
+}
+/* 按钮hover的效果 */
+#gameStartButton:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+
+/* 结束提示词 */
+#prompt{
+    position: absolute;
+    color: white;
+    top: 30vh;
+    width: 100vw;
+    text-align: center;
+    font-size: 5vw;
+}
+
+}
+#creditsButton:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+#creditsButton>h1{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    font-size: 1vw;
+}
+
+/* 装卡牌和开始游戏的盒子 */
+#gameBox{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/gameBgImg.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.3s;
+}
+
+/* 装卡牌的盒子 */
+#cardBox{
+    position: absolute;
+    top: 3vh;
+    left: 2vw;
+    width: 96vw;
+    height: 75vh;
+}
+/* 卡牌大小标准 */
+#normCard{
+    position: absolute;
+    top: -30vh;
+    width: 8vw;
+    height: 8vw;
+}
+/* 添加的卡(div盒子) */
+.cardDiv{
+    position: absolute;
+    background-color: white;
+    width: 8vw;
+    height: 8vw;
+}
+/* 添加的卡 */
+.skyCard{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+/* 遮挡的卡 */
+.coverCard{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-color: black;
+}
+
+/* 存储选中卡的框 */
+#selectedBox{
+    position: absolute;
+    /* border: 0.1vw solid white; */
+    background-color: white;
+    bottom: 3vh;
+    left: 2vw;
+    width: 96vw;
+    height: 8vw;
+}
+/* 选中的卡 */
+.selectedCard{
+    width: 8vw;
+    height: 8vw;
+    margin-left: 0.8vw;
+    background-color: white;
+    background-size: 100% 100%;
+}
+/* 第一张选中的卡 */
+#selectedBox>img:first-of-type{
+    margin-left: 0vw;
+}
